@@ -12,12 +12,7 @@
         <div ng-app="CalculatorApp" ng-controller="CalculatorController">
             <p><input type="number" [(ngModel)] = 'numberOne'>
               &nbsp;
-            <select [(ngModel)]='operator'>
-                <option>+</option>
-                <option>*</option>
-                <option>-</option>
-                <option>/</option>
-             </select> 
+              *
              &nbsp;
             <input type="number" [(ngModel)] = 'numberTwo'> <button (click)='docalculation()' style='background-color: grey;'>  = </button> &nbsp;
             {{ result }}
