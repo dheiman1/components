@@ -116,12 +116,6 @@ THE SOFTWARE.
 
 @angular/material/checkbox
 
-@angular/material/core
-
-@angular/material/form-field
-
-@angular/material/select
-
 @angular/platform-browser
 MIT
 
